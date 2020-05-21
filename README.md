@@ -18,8 +18,11 @@
 По факту определения нажатий необходимо вызывать функции:
 
 void single_key_pressed(char key)
+
 void double_key_pressed(char key, char key)
+
 void single_key_long_pressed(char key)
+
 void double_key_long_pressed(char key, char key)
 
 В качестве микроконтроллера используется STM32F3x.
